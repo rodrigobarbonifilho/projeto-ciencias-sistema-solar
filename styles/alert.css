@@ -8,6 +8,9 @@
   width: 100vw;
   height: 100vh;
   color: white;
+  background: url(../images/bg/alert.jpg);
+  background-position: center center;
+  background-size: cover;
   z-index: -1;
 }
 
@@ -39,5 +42,6 @@
   .alert-to-rotate {
     display: flex;
     z-index: 999;
+    transition: 0.3s ease-in-out;
   }
 }
