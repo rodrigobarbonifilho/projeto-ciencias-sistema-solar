@@ -32,6 +32,7 @@
 
 @media (orientation: portrait) {
   html {
+    overflow: hidden;
     height: 100vh;
   }
 
