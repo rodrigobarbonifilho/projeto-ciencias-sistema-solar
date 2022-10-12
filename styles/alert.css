@@ -1,0 +1,42 @@
+.alert-to-rotate {
+  font-size: 3rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  z-index: -1;
+}
+
+.alert-to-rotate > ion-icon {
+  font-size: 6rem;
+  animation: rotate-phone 1.5s 1s infinite;
+}
+
+.alert-to-rotate > p {
+  font-weight: bold;
+  text-align: center;
+  max-width: calc(100vw/2);
+}
+
+@keyframes rotate-phone {
+  from {
+    transform: rotate(0);
+  } to {
+    transform: rotate(90deg);
+  }
+}
+
+@media (orientation: portrait) {
+  html {
+    height: 100vh;
+  }
+
+  .alert-to-rotate {
+    display: flex;
+    z-index: 999;
+  }
+}
