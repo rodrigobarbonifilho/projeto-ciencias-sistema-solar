@@ -4,6 +4,9 @@
 /* Alkalami */
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 
+/* Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 * {
   margin: 0;
   border: 0;
@@ -13,7 +16,7 @@
 
 html {
   height: 200vh;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-size: 62.5%;
 }
 

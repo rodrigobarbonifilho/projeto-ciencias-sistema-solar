@@ -1,5 +1,4 @@
 .alert-to-rotate {
-  font-family: "Alkalami", serif;
   font-size: 3rem;
   display: none;
   flex-direction: column;
@@ -8,10 +7,10 @@
   gap: 15px;
   width: 100vw;
   height: 100vh;
-  color: white;
   background: url(../images/bg/alert.jpg);
   background-position: center center;
   background-size: cover;
+  color: white;
   z-index: -1;
 }
 
